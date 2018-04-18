@@ -1,0 +1,316 @@
+﻿Построение начато 10.02.2018 16:37:07.
+     1>Проект "C:\Users\Артем\Documents\Visual Studio 2012\Projects\KGlab1.1\KGlab1.1\KGlab1.1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt addFrom.cpp funcs.cpp main.cpp paint.cpp
+         addFrom.cpp
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(9): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: DataGridView: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: table: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2182: change_table: недопустимое использование типа "void"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2078: слишком много инициализаторов
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(35): error C2061: синтаксическая ошибка: идентификатор "String"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(8): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(9): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(9): error C2871: ComponentModel: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(10): error C2871: Collections: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(11): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(11): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(12): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(12): error C2871: Data: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(13): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(13): error C2871: Drawing: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(18): error C2059: синтаксическая ошибка: public
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(18): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(19): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\addFrom.h(19): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>addFrom.cpp(8): error C2065: addFrom: необъявленный идентификатор
+     1>addFrom.cpp(8): error C2065: Adder: необъявленный идентификатор
+     1>addFrom.cpp(8): error C2065: gcnew: необъявленный идентификатор
+     1>addFrom.cpp(8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "addFrom"
+     1>addFrom.cpp(11): error C2065: Adder: необъявленный идентификатор
+     1>addFrom.cpp(11): error C2227: выражение слева от "->ShowDialog" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>addFrom.cpp(11): error C2653: DialogResult: не является именем класса или пространства имен
+     1>addFrom.cpp(11): error C2065: OK: необъявленный идентификатор
+     1>addFrom.cpp(12): error C2065: Adder: необъявленный идентификатор
+     1>addFrom.cpp(12): error C2227: выражение слева от "->txtX" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>addFrom.cpp(12): error C2227: выражение слева от "->Text" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>addFrom.cpp(12): error C2227: выражение слева от "->txtY" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>addFrom.cpp(14): error C2653: MessageBox: не является именем класса или пространства имен
+     1>addFrom.cpp(14): error C3861: Show: идентификатор не найден
+     1>addFrom.cpp(18): error C2065: Adder: необъявленный идентификатор
+     1>addFrom.cpp(18): error C2227: выражение слева от "->txtX" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>addFrom.cpp(18): error C2227: выражение слева от "->Text" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>addFrom.cpp(18): error C2227: выражение слева от "->txtY" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>addFrom.cpp(18): error C2660: add: функция не принимает 3 аргументов
+     1>addFrom.cpp(25): error C2653: System: не является именем класса или пространства имен
+     1>addFrom.cpp(25): error C2653: addFrom: не является именем класса или пространства имен
+     1>addFrom.cpp(25): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btnAdd_Click"
+     1>addFrom.cpp(25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>addFrom.cpp(25): error C2065: Object: необъявленный идентификатор
+     1>addFrom.cpp(25): error C2065: sender: необъявленный идентификатор
+     1>addFrom.cpp(25): error C2065: EventArgs: необъявленный идентификатор
+     1>addFrom.cpp(25): error C2065: e: необъявленный идентификатор
+     1>addFrom.cpp(26): error C2448: btnAdd_Click: вероятно, инициализатор, использующий стиль функции, является определением функции
+     1>addFrom.cpp(29): error C2653: System: не является именем класса или пространства имен
+     1>addFrom.cpp(29): error C2653: addFrom: не является именем класса или пространства имен
+     1>addFrom.cpp(29): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btnCancel_Click"
+     1>addFrom.cpp(29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>addFrom.cpp(29): error C2086: int Void: переопределение
+                 addFrom.cpp(25): см. объявление "Void"
+     1>addFrom.cpp(29): error C2065: Object: необъявленный идентификатор
+     1>addFrom.cpp(29): error C2065: sender: необъявленный идентификатор
+     1>addFrom.cpp(29): error C2065: EventArgs: необъявленный идентификатор
+     1>addFrom.cpp(29): error C2065: e: необъявленный идентификатор
+     1>addFrom.cpp(30): error C2448: btnCancel_Click: вероятно, инициализатор, использующий стиль функции, является определением функции
+         funcs.cpp
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(9): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: DataGridView: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: table: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2182: change_table: недопустимое использование типа "void"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2078: слишком много инициализаторов
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(35): error C2061: синтаксическая ошибка: идентификатор "String"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\vcclr.h(16): fatal error C1190: для управляемого целевого кода требуется параметр /clr
+         main.cpp
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(9): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: DataGridView: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: table: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2182: change_table: недопустимое использование типа "void"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2078: слишком много инициализаторов
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(35): error C2061: синтаксическая ошибка: идентификатор "String"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2653: System: не является именем класса или пространства имен
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(139): см. ссылку на создание экземпляров класса шаблон при компиляции "gcroot<T>"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "GCHandle"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2868: gcroot<T>::GCHandle: недопустимый синтаксис для "using"-объявления; требуется полное имя
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(11): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(12): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(12): error C2871: Drawing: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(13): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(13): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(35): error C2065: Graphics: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(35): error C2059: синтаксическая ошибка: >
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(38): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: Color: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: drawcolor: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2275: bordersstruct: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(20): см. объявление "bordersstruct"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "res"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2065: res: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: A: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2275: canvaspoint: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(28): см. объявление "canvaspoint"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "B"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: B: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: Color: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: drawcolor: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "width"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: width: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2065: easel: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2275: canvasstruct: недопустимое использование этого типа в качестве выражения
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(6): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(9): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(11): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(12): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(13): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(18): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(19): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(22): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(27): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(34): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(36): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(38): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(39): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(40): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(43): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(44): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(47): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(48): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(49): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(50): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(56): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(57): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(58): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(59): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(60): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(62): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(64): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(65): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(66): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(79): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(87): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(88): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(88): error C2653: MyForm: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(88): error C2589: typeid: недопустимая лексема справа от "::"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(89): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(90): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(91): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(92): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(93): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(94): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(95): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(96): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(97): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(98): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(99): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(100): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(101): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(102): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(103): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(104): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(105): error C2653: cli: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\MyForm.h(105): fatal error C1003: число ошибок превышает 100; остановка компиляции
+         paint.cpp
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(9): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(10): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: DataGridView: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: table: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2182: change_table: недопустимое использование типа "void"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(34): error C2078: слишком много инициализаторов
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(35): error C2061: синтаксическая ошибка: идентификатор "String"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2653: System: не является именем класса или пространства имен
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(139): см. ссылку на создание экземпляров класса шаблон при компиляции "gcroot<T>"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "GCHandle"
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\msclr\gcroot.h(58): error C2868: gcroot<T>::GCHandle: недопустимый синтаксис для "using"-объявления; требуется полное имя
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(11): error C2871: System: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(12): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(12): error C2871: Drawing: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(13): error C2653: System: не является именем класса или пространства имен
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(13): error C2871: Forms: пространство имен с таким именем не существует
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(35): error C2065: Graphics: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(35): error C2059: синтаксическая ошибка: >
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(38): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: head: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: Color: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2065: drawcolor: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(45): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2275: bordersstruct: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(20): см. объявление "bordersstruct"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "res"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2065: res: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(46): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: A: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2275: canvaspoint: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(28): см. объявление "canvaspoint"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "B"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: B: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: Color: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: drawcolor: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "width"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2065: width: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(48): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2065: easel: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2275: canvasstruct: недопустимое использование этого типа в качестве выражения
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2065: borders: необъявленный идентификатор
+     1>c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(49): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(4): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(18): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(28): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>paint.cpp(32): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>paint.cpp(34): error C2065: easel: необъявленный идентификатор
+     1>paint.cpp(34): error C2275: canvasstruct: недопустимое использование этого типа в качестве выражения
+     1>paint.cpp(34): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>paint.cpp(34): error C2065: borders: необъявленный идентификатор
+     1>paint.cpp(34): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(35): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(37): error C2065: scaleY: необъявленный идентификатор
+     1>paint.cpp(72): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>paint.cpp(75): error C2065: point: необъявленный идентификатор
+     1>paint.cpp(75): error C2275: canvaspoint: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\paint.h(28): см. объявление "canvaspoint"
+     1>paint.cpp(75): error C2065: Color: необъявленный идентификатор
+     1>paint.cpp(75): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>paint.cpp(75): error C2065: drawcolor: необъявленный идентификатор
+     1>paint.cpp(75): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(76): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(78): error C2653: Color: не является именем класса или пространства имен
+     1>paint.cpp(80): error C2065: point: необъявленный идентификатор
+     1>paint.cpp(80): error C2227: выражение слева от "->y" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>paint.cpp(80): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(81): error C2065: rect: необъявленный идентификатор
+     1>paint.cpp(82): error C2065: rect: необъявленный идентификатор
+     1>paint.cpp(86): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>paint.cpp(88): error C2065: head: необъявленный идентификатор
+     1>paint.cpp(88): error C2275: cord: недопустимое использование этого типа в качестве выражения
+                 c:\users\артем\documents\visual studio 2012\projects\kglab1.1\kglab1.1\funcs.h(14): см. объявление "cord"
+     1>paint.cpp(88): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "borders"
+     1>paint.cpp(88): error C2065: borders: необъявленный идентификатор
+     1>paint.cpp(88): error C2065: Color: необъявленный идентификатор
+     1>paint.cpp(88): error C2146: синтаксическая ошибка: отсутствие "," перед идентификатором "drawcolor"
+     1>paint.cpp(88): error C2065: drawcolor: необъявленный идентификатор
+     1>paint.cpp(88): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(89): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(99): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>paint.cpp(100): error C2065: easel: необъявленный идентификатор
+     1>paint.cpp(100): error C2065: borders: необъявленный идентификатор
+     1>paint.cpp(100): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(101): error C2065: PointInCanvas: необъявленный идентификатор
+     1>paint.cpp(101): error C2065: drawcolor: необъявленный идентификатор
+     1>paint.cpp(101): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(104): error C2653: String: не является именем класса или пространства имен
+     1>paint.cpp(104): error C2065: i: необъявленный идентификатор
+     1>paint.cpp(107): error C2653: System: не является именем класса или пространства имен
+     1>paint.cpp(108): error C2653: Color: не является именем класса или пространства имен
+     1>paint.cpp(111): error C2065: drawFont: необъявленный идентификатор
+     1>paint.cpp(111): error C2065: drawBrush: необъявленный идентификатор
+     1>paint.cpp(111): error C2065: PointInCanvas: необъявленный идентификатор
+     1>paint.cpp(111): error C2227: выражение слева от "->x" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>paint.cpp(111): error C2227: выражение слева от "->y" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+                 тип: 'unknown-type'
+     1>paint.cpp(111): error C2143: синтаксическая ошибка: отсутствие "," перед ")"
+     1>paint.cpp(111): fatal error C1003: число ошибок превышает 100; остановка компиляции
+     1>Построение проекта "C:\Users\Артем\Documents\Visual Studio 2012\Projects\KGlab1.1\KGlab1.1\KGlab1.1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.80

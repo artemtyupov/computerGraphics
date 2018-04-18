@@ -1,0 +1,26 @@
+﻿Построение начато 16.04.2018 10:41:32.
+     1>Проект "C:\Users\Артем\Desktop\University\Sem4\[КГ] лабы\lab4_okr\src\src.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\src.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib circle.cpp
+         circle.cpp
+     1>circle.cpp(5): warning C4005: __CLR_VER: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__CLR_VER"
+     1>circle.cpp(5): warning C4651: параметр "/D__CLR_VER=40702053" указан для предкомпилированного заголовка, но не для текущей компиляции
+     1>circle.cpp(210): error C2065: x1: необъявленный идентификатор
+     1>circle.cpp(210): error C2065: x2: необъявленный идентификатор
+     1>circle.cpp(210): error C2065: y2: необъявленный идентификатор
+     1>circle.cpp(215): error C2065: x1: необъявленный идентификатор
+     1>circle.cpp(215): error C2065: x2: необъявленный идентификатор
+     1>circle.cpp(215): error C2065: y2: необъявленный идентификатор
+     1>circle.cpp(215): error C3861: DrawBrezenhemInt: идентификатор не найден
+     1>circle.cpp(220): error C2039: DrawBrezenhemSoft: не является членом "Circle"
+     1>circle.cpp(220): error C2065: x1: необъявленный идентификатор
+     1>circle.cpp(220): error C2065: x2: необъявленный идентификатор
+     1>circle.cpp(220): error C2065: y2: необъявленный идентификатор
+     1>circle.cpp(220): error C2065: backcolor: необъявленный идентификатор
+     1>circle.cpp(220): error C3861: DrawBrezenhemSoft: идентификатор не найден
+     1>Построение проекта "C:\Users\Артем\Desktop\University\Sem4\[КГ] лабы\lab4_okr\src\src.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.14

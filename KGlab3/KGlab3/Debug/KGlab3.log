@@ -1,0 +1,48 @@
+﻿Построение начато 12.04.2018 14:29:08.
+     1>Проект "F:\(4 сем)компьютерная графика\KGlab3\KGlab3\KGlab3.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\KGlab3.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\KGlab3.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib algorithms.cpp main.cpp MyForm.cpp paint.cpp select.cpp ticker.cpp
+         algorithms.cpp
+     1>algorithms.cpp(5): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>algorithms.cpp(255): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>algorithms.cpp(256): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>algorithms.cpp(257): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         main.cpp
+         MyForm.cpp
+         paint.cpp
+         select.cpp
+     1>select.cpp(124): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>select.cpp(125): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>select.cpp(136): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>select.cpp(137): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         ticker.cpp
+     1>ticker.cpp(14): warning C4068: неизвестная директива pragma
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "D:\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /compile MyForm.resx,Debug\KGlab3.MyForm.resources
+         Обрабатывается файл ресурсов "MyForm.resx", результирующий объект: "Debug\KGlab3.MyForm.resources".
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\(4 сем)компьютерная графика\KGlab3\Debug\KGlab3.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\KGlab3.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\(4 сем)компьютерная графика\KGlab3\Debug\KGlab3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\algorithms.obj
+         Debug\main.obj
+         Debug\MyForm.obj
+         Debug\paint.obj
+         Debug\select.obj
+         Debug\ticker.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         KGlab3.vcxproj -> F:\(4 сем)компьютерная графика\KGlab3\Debug\KGlab3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\KGlab3.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\KGlab3.lastbuildstate".
+     1>Построение проекта "F:\(4 сем)компьютерная графика\KGlab3\KGlab3\KGlab3.vcxproj" завершено (целевые объекты Rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:10.69
